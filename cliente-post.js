@@ -1,10 +1,10 @@
 const http = require("http")
 
-const datos = "Propuesta: crear un canal comunitario de información verificada."
+const datos = "propuesta: publicar avisos comunitaros con avisos claro."
 
 const opciones = {
   hostname: "localhost",
-  port: 3000,
+  port: 3033,
   path: "/propuestas",
   method: "POST",
   headers: {
